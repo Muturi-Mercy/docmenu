@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primary-color:#324dd3;
+}
+body{
+    background-color: #fff ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('/images/sea-3052592_1280.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.logincard .container {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color:#fff;
+    border-radius:2% ;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0;
+    padding-bottom: 30px;
+    border-radius: 20px 20px 20px 20px;
+}
+.logincard .container .profile{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    background: linear-gradient(45deg, #4285f4, #6aa6f8);
+    height: 150px;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+    color: white;
+    overflow: hidden;
+    margin: 0px;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px;
+}
+
+.logincard .container .profile img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border:4px solid rgba(164, 201, 231, 0.737) ;
+    margin-right: 10px;
+}
+.btn{
+    background:linear-gradient(45deg, #4285f4, #6aa6f8);
+    border-radius: 2%;
+    width:150px;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 15px;  
+    display: flex;
+    gap: 10px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 10px;
+    padding-top:18px ;
+    padding-bottom: 18px;
+    padding-right: 0px;
+    margin-left: 0px;
+}
+.menu .sborder{
+    border-left: 3px solid #324dd3;
+}
+.exit{
+    margin-left: 80%;
+    padding-top: -1px;
+}
+/* utilities */
+.poppins-light {
+    font-family: "Nunito Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Nunito Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Nunito Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
